@@ -21,13 +21,13 @@ public class ContaTerminal
                 System.out.print("Insira o número da agencia: ");
                 cliente.setAgencia(input.next());
 
-                System.out.print("Insira da conta, por favor: ");
+                System.out.print("Insira número de conta, por favor: ");
                 cliente.setNumero(input.nextInt());
 
                 System.out.print("Insira o saldo: ");
                 cliente.setSaldo(input.nextDouble());
 
-                System.out.println("\n" + cliente q gitgi);
+                System.out.println("\n" + cliente);
                 continuarLoop = false;
 
             } catch (IllegalArgumentException e) {
