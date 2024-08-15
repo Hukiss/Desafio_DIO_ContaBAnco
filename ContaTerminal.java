@@ -27,7 +27,7 @@ public class ContaTerminal
                 System.out.print("Insira o saldo: ");
                 cliente.setSaldo(input.nextDouble());
 
-                System.out.println("\n" + cliente);
+                System.out.println("\n" + cliente q);
                 continuarLoop = false;
 
             } catch (IllegalArgumentException e) {
